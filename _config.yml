@@ -1,0 +1,9 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package-lock.json
+  - package.json
+  - tags
+  - yarn.lock
