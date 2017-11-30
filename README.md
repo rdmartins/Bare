@@ -31,8 +31,16 @@ To use Bare you'll need:
 
 #### Node and npm
 
-Check if you have [Node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) with `$ node --version` and `$ npm --version`.
-If the commands outputs an error instead of the software version, [install](https://docs.npmjs.com/getting-started/installing-node) Node and npm.
+Check if you have [Node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/):
+```
+$ node --version
+v9.2.0
+
+$ npm --version
+5.5.1
+```
+The output should be like that.
+If some command output an error instead of the software version, [install](https://docs.npmjs.com/getting-started/installing-node) Node and npm.
 The installation may differ from distro to distro, and it's best to learn how to install from your distro wiki.
 
 Alternatively, Bare can work with a package manager called [Yarn](https://yarnpkg.com/en/).
@@ -40,11 +48,22 @@ Yarn works with the npm base repositories, but have some improvements upon npm i
 
 #### Ruby and jekyll
 
-Check if you have [Ruby](https://www.ruby-lang.org/en/) installed with `$ ruby --version`.
+Check if you have [Ruby](https://www.ruby-lang.org/en/) installed:
+```
+$ ruby --version
+ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-linux]
+```
 You can learn how to install Ruby on your distro wiki.
 
-You can check if you have the [jekyll](https://jekyllrb.com/) gem installed with `$ jekyll --version`.
-In case of error, you can install it with `$ gem install jekyll`
+You can check if you have the [jekyll](https://jekyllrb.com/) gem installed with:
+```
+$ jekyll --version
+jekyll 3.6.2
+```
+In case of error, you can install it with:
+```
+$ gem install jekyll
+```
 
 ### Using
 
