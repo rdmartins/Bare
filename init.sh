@@ -6,9 +6,9 @@ if ! hash ruby 2>/dev/null; then
   error=true;
   echo "Ruby not found.";
 fi
-if ! hash bundle 2>/dev/null; then
+if ! hash jekyll 2>/dev/null; then
   error=true;
-  echo "Bundler not found.";
+  echo "jekyll not found.";
 fi
 if ! hash yarn 2>/dev/null; then
   yarn=false;
@@ -23,10 +23,6 @@ if [ "$error" = true ]; then
   echo "Aborting.";
   exit 1;
 fi
-
-export GEM_HOME=$(ruby -e 'print Gem.user_dir');
-
-bundle install
 
 if [ "$yarn" = true ]; then
   yarn;

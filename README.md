@@ -23,11 +23,9 @@ That will leave you with:
 To use Bare you'll need:
 
 * Ruby;
-* Bundler;
+* jekyll;
 * Node;
 * Yarn (or NPM);
-
-It will install jekyll for you.
 
 ### Installing
 
@@ -40,20 +38,13 @@ The installation may differ from distro to distro, and it's best to learn how to
 Alternatively, Bare can work with a package manager called [Yarn](https://yarnpkg.com/en/).
 Yarn works with the npm base repositories, but have some improvements upon npm itself.
 
-#### Ruby and Bundler
+#### Ruby and jekyll
 
 Check if you have [Ruby](https://www.ruby-lang.org/en/) installed with `$ ruby --version`.
 You can learn how to install Ruby on your distro wiki.
 
-You can check if you have the [Bundler](http://bundler.io/) gem installed with `$ bundler --version`.
-In case of error, you can install it with `$ gem install bundler`
-
-#### jekyll
-
-The last dependency is jekyll.
-jekyll can be installed with `$ gem install jekyll`;
-
-*The init script will install jekyll for you.*
+You can check if you have the [jekyll](https://jekyllrb.com/) gem installed with `$ jekyll --version`.
+In case of error, you can install it with `$ gem install jekyll`
 
 ### Using
 
@@ -67,9 +58,8 @@ $ ./init.sh
 
 The script will perform this actions for you:
 
-1. Test for Ruby, Bundler and NPM;
-2. Install the jekyll gem and it's dependencies;
-3. Install all node dependencies;
+1. Test for Ruby, jekyll and NPM;
+3. Install node dependencies;
 4. Create jekyll basic file structure;
 5. Remove the init script;
 6. Destroy the git repo;
