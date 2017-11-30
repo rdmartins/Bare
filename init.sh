@@ -12,10 +12,10 @@ if ! hash bundle 2>/dev/null; then
 fi
 if ! hash yarn 2>/dev/null; then
   yarn=false;
-  echo "Yarn not found, trying NPM...";
+  echo "Yarn not found, trying npm...";
   if ! hash npm 2>/dev/null; then
     error=true
-    echo "NPM not found."
+    echo "npm not found."
   fi
 fi
 
