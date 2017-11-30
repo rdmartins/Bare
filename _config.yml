@@ -1,7 +1,1 @@
-exclude:
-  - gulpfile.js
-  - node_modules
-  - package-lock.json
-  - package.json
-  - tags
-  - yarn.lock
+theme: jekyll-theme-merlot

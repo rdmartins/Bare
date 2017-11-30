@@ -1,7 +1,3 @@
-# Bare
-
-Gulp, Sass, jekyll and Browsersync configuration for new websites
-
 ## Getting Started
 
 Clone this repo and run the init script.
@@ -14,7 +10,7 @@ That will leave you with:
   * Concatenate, preprocess (Sass, compressed) and autoprefix your stylesheets;
   * Concatenate, preprocess (Babel) and minify your scripts.
 * A **NEW** git repository;
-* A a running browser-sync server.
+* A running browser-sync server.
 
 *Please, note that the init script will destroy the bare repo and initiate a new repo on it's place.*
 

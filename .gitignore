@@ -1,8 +1,1 @@
-assets/
-.jekyll-metadata
-node_modules/
-package-lock.json
-.sass-cache/
-_site/
 tags
-yarn.lock
